@@ -76,7 +76,7 @@ Package.onTest(function (api) {
     api.addFiles('lib/query/testing/server.test.js', 'server');
     api.addFiles('lib/query/testing/client.test.js', 'client');
 
-    // NAMED QUERY
+    // NAMED QUERIES
     api.addFiles('lib/namedQuery/testing/bootstrap/both.js');
     api.addFiles('lib/namedQuery/testing/bootstrap/client.js', 'client');
     api.addFiles('lib/namedQuery/testing/bootstrap/server.js', 'server');
